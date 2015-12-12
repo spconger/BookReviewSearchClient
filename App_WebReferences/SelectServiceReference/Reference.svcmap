@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d6c4798d-9050-4200-87f5-2f8f0498eff8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:15347/SelectService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SelectService.disco" MetadataType="Disco" ID="0daeee79-2f9e-40a6-8207-b06918df60ad" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?disco" />
+    <MetadataFile FileName="SelectService.wsdl" MetadataType="Wsdl" ID="2126ff8f-dad9-480c-aa9d-2dd4a9b89084" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?wsdl" />
+    <MetadataFile FileName="SelectService.xsd" MetadataType="Schema" ID="c7ec1a84-2f8d-4a51-a352-409e74aa75e8" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SelectService1.xsd" MetadataType="Schema" ID="5679dd47-33dd-41f7-a951-dd442888dc46" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SelectService2.xsd" MetadataType="Schema" ID="ac59df9d-1ff9-43f8-8e39-cc44d0f5c5aa" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SelectService3.xsd" MetadataType="Schema" ID="52c843f1-b061-4e88-a92f-47b6cca8deaa" SourceId="1" SourceUrl="http://localhost:15347/SelectService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
